@@ -1,0 +1,20 @@
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<h1>Stupid coaching</h1>
+
+
+<div class="col-6" style="color: black" style="background-color:black">
+  <strong><%= @question %></strong>
+  <p><em>-You</em></p>
+</div>
+
+
+
+<div class="bg-warning" >
+  <strong> <%= @answer %> </strong>
+  <p><em>-Your coach</em></p>
+</div>
+
+<div class ="redirect">
+  <%= link_to "Ask a new question", "/ask" %>
+</div>
